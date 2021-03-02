@@ -105,7 +105,6 @@ public class Main {
     }
 
     public static void medicToHeal() {
-
         for (int i = 0; i < heroesDamage.length; i++) {
             Random random2 = new Random();
             int coeff2 = random2.nextInt(40) + 10;
